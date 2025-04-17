@@ -1,0 +1,36 @@
+sources:
+  SWOT:
+    args:
+      chunks: {}
+      engine: h5netcdf
+      urlpath:
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_001_20230503T162449_20230503T171554_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_002_20230503T171555_20230503T180700_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_003_20230503T180700_20230503T185805_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_004_20230503T185806_20230503T194911_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_005_20230503T194912_20230503T204017_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_006_20230503T204017_20230503T213122_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_007_20230503T213123_20230503T222228_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_008_20230503T222228_20230503T231333_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_009_20230503T231334_20230504T000439_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_010_20230504T000440_20230504T005545_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_011_20230504T005545_20230504T014651_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_012_20230504T014651_20230504T023756_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_013_20230504T023757_20230504T032902_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_014_20230504T032903_20230504T042008_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_015_20230504T042008_20230504T051113_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_016_20230504T051114_20230504T060218_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_017_20230504T060219_20230504T065324_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_018_20230504T065325_20230504T074429_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_019_20230504T074430_20230504T083536_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_020_20230504T083536_20230504T092641_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_021_20230504T092642_20230504T101747_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_022_20230504T101747_20230504T110852_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_023_20230504T110853_20230504T115958_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_024_20230504T115959_20230504T125103_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_025_20230504T125104_20230504T134209_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_026_20230504T134210_20230504T143315_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_027_20230504T143315_20230504T152421_v1.0.nc
+      - https://minio.lab.dive.edito.eu/project-meom-ige/SWOT_L3_V1_0/cycle_510/SWOT_L3_LR_SSH_Basic_510_028_20230504T152421_20230504T161526_v1.0.nc
+    description: 'SWOT dataset load '
+    driver: netcdf

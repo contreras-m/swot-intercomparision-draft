@@ -45,14 +45,14 @@ eORCA25:
       ## Detail on model schemes and parameters   
       model_parameters:
         bulk_formulae: "COARE2"  # reference to the version of the bulk formulae
-        wind_stress: "relative"  #
+        wind_stress_formulation: "relative"  #
         horizontal_momentum_advection_scheme: "2nd centered scheme"
         horizontal_tracer_advection_scheme: "2nd Order FCT scheme"
         vertical_momentum_advection_scheme: "adaptive-implicit vertical advection"
-        vertical_tracer_advection-scheme: "2nd Order FCT scheme"
+        vertical_tracer_advection_scheme: "2nd Order FCT scheme"
         horizontal_momentum_dissipation: "horizontal  (geopotential)" # background value, the unit informs on the type of dissipation
         horizontal_tracer_dissipation: "Laplacian operator" # background value, the unit informs on the type of dissipation
-        SBL-parameterization: "TKE+ESVD"
-        equation-state: "TEOS-10"
-        Bottom-drag: "non-linear drag"
-        Bottom-drag-coeff: "1.e-3"
+        vertical_mixing_parameterization: "TKE+ESVD"
+        equation_state: "TEOS-10"
+        bottom_drag: "non-linear drag"
+        bottom_drag_coeff: "1.e-3"

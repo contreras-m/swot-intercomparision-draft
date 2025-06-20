@@ -1,4 +1,4 @@
-
+## THIS IS AN EXAMPLE OF METADATA FILES
 eORCA025:
       ##  Information on the provider institution
       data_provider:
@@ -13,9 +13,8 @@ eORCA025:
       model_dataset:
         output_frequency: "24 h" #  in h
         type_of_average : "24 h" #  ‘None’ or averaging frequency in h
-        model_year: "1966" #
-        source_url: "…" # where the data sit
-        base_s3_folder: "s3://project-meom-ige/SWOT_L3_V1_0"
+        model_year: "1966" # Remember, just one year for metadata and dataset. If you wish to contribute more than one year, please complete this file for each year.
+        base_s3_folder: "s3://project-meom-ige/SWOT_L3_V1_0" # Access S3 point
         endpoint_url: "https://minio.lab.dive.edito.eu/"
       ## Model grid 
       model_grid:
